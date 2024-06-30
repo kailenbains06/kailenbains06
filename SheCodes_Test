@@ -1,0 +1,89 @@
+<html>
+  <head>
+    <style>
+      h1 {
+        text-align: center;
+        color: darkred;
+      }
+
+      h2 {
+        text-align: center;
+        border-radius: 10px;
+        border: 1px solid darkred;
+        padding: 15px;
+      }
+
+      img {
+        border-radius: 10px;
+        width: 100%;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 1.5;
+      }
+
+      button {
+        width: 100%;
+        background: darkred;
+        color: white;
+        border: none;
+        padding: 15px;
+        font-size: 20px;
+        border-radius: 30px;
+        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+        margin: 20px 0;
+      }
+
+      footer {
+        text-align: center;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      🎸 Dave Grohl
+    </h1>
+    <h2>
+      Foo Fighters and Nirvana
+    </h2>
+    <img
+      src="https://www.rollingstone.com/wp-content/uploads/2018/11/dave-grohl-early-90s-bw-behind-the-drums.jpg"
+      alt=""
+    />
+    <p>
+      David Eric Grohl is an American musician. He is the founder of the rock band Foo Fighters, 
+      for which he is the lead singer, guitarist, and principal songwriter. Prior to forming Foo Fighters, 
+      he was the drummer of the grunge band Nirvana from 1990 to 1994.
+      <br />
+      <br />
+      <a href="https://en.wikipedia.org/wiki/Dave_Grohl">
+        Learn more on Wikipedia
+      </a>
+    </p>
+    <button>
+      Join the fan club now!
+    </button>
+    <footer>
+      Coded by SheCodes and edited by Kailen Bains 👽
+      <a href="https://www.linkedin.com/in/kailen-bains-18a7b430b/">
+        LinkedIn
+      </a>
+    </footer>
+
+    <script>
+      function subscribe() {
+        let name = prompt("What is your name?");
+        prompt("What is your email address?");
+
+        alert(
+          `Thanks, ${name} for joining the fan club!`
+        );
+      }
+
+      let button = document.querySelector("button");
+      button.addEventListener("click", subscribe);
+    </script>
+  </body>
+</html>
