@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio 👩🏽‍💻 </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+    <h1>.｡*ﾟ+ My CFG Portfolio .*.｡ </h1>
+
+<!--Listing content about me such as activities and work exp.-->
+
+    <div id="about-description">
+        <h1> About Me! </h1>
+        <p> 👩🏽‍💻 Aspiring Software Engineer </p>
+        <p> 📘 BHS A Level Student </p>
+        <p> 📖 Computer Science, Media Studies and Mathematics </p> <br>
+    </div>
+
+    </header>
+
+    <div id="mainskills-list">
+        <h1> My main skills are... </h1>
+        <li>Beginner Python Knowledge</li>
+        <li>Excellent designing using Canva</li>
+        <li>Website design using Wix</li>
+        <li>Impressive leadership, communication and teamwork skills</li>
+    </div>
+
+    <div id="employement"> 
+        <h2> <strong> 💼 Employment: </strong> </h2>
+        <h3> Roots - Digital Technology Director and Board of Directors </h3>
+        <p> 📓 Explanation. </p>
+        <h3> Lavish Backdrops - Digital Marketing Manager </h3>
+        <p> 📓 Explanation. </p> <br>
+    </div>
+
+
+
+    <div id="workexp"> 
+        <h2> <strong> 🖥️ My Work Experience: </strong> </h2>
+        <h3> Sprinpod & Fujitsu - Digital Skills </h3>
+        <p> 📓 Explanation. </p>
+        <h3> Sprinpod & Fujitsu - CyberSecurity </h3>
+        <p> 📓 Explanation. </p>
+        <h3> Speakers For Schools & Kainos - Dive into Data, AI and Beyond </h3>
+        <p> 📓 Explanation. </p>
+        <h3> Speakers For Schools & Up Rise Up - Digital Marketing </h3>
+        <p> 📓 Explanation. </p> <br>
+    </div>
+
+
+
+    <div id="courses">
+        <h2> <strong> 💻 My Courses: </strong> </h2>
+        <h3> Sprinpod Subject Spotlight - Decoding Social Media: An exploration of Programming and Platforms </h3>
+        <p> 📓 Explanation. </p>
+        <h3> Code Institute: 5 Day Coding Challenge </h3>
+        <p> 📓 Explanation. </p>
+        <h3> SheCodes Express </h3>
+        <p> 📓 Explanation. </p>
+        <h3> Maths for Programmers </h3>
+        <p> 📓 Explanation. </p> <br>
+    </div>
+ 
+    <div id="education">
+        <h2> <strong> 📘 My Education: </strong> </h2>
+        <h3> Beaconsfield High Schools </h3>
+        <p> 📓 Achieved 10 GCSEs. </p>
+        <p> 📓 Currently doing 3 A Levels with an EPQ. </p> <br>
+   
+    </div>
+
+
+
+    <div id="activity">  
+        <h2> <strong> My Activities </strong> </h2>
+        <h3> UCL - Computer Science - Online Masterclass </h3>
+        <p> 📓 Explanation. </p>
+        <h3> Oxford University - It All Adds Up for Maths </h3>
+        <p> 📓 Explanation. </p>
+        <h3> Oxford University - Maths and Computer Science Departmental Open Day </h3>
+        <p> 📓 Explanation. </p>
+        <h3> Code First Girls MOOC - Web Development </h3>
+        <p> 📓 Explanation. </p> <br>
+    </div>
+
+<!--Currently the links lead to nowhere. Need to implement JS to provide interaction. -->
+    <footer>
+        <h2> 📨 Contact me...</h2>
+        <p>Email: <a href="#">kailenbains2006@gmail.com</a></p>
+        <p>Github: <a href="#">https://github.com/kailenbains06e</a></p>
+        <p>Linkedin: <a href="#">www.linkedin.com/in/kailen-bains-18a7b430b</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+
+<!--We have added links to a JS and CSS file but need to create the code for it.-->
+
+</body>
+</html>
