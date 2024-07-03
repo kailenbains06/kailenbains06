@@ -6,10 +6,20 @@
     <title>My Portfolio 👩🏽‍💻 </title>
     <link rel="stylesheet" href="style.css">
 </head>
+    <style>
+        body{background: lightblue}
+        body{color: darkblue}
+        h1{font-family: Gill Sans;} 
+        h2{font-family: Gill Sans;} 
+        #about-description, #mainskills-list, #employment, #workexp, #courses, #education, #activity{
+            font-family: Calibri;
+            background-color: white;
+        }
+    </style>
 <body>
     <header>
 
-    <h1>.｡*ﾟ+ My CFG Portfolio .*.｡ </h1>
+    <h1>.｡*ﾟ+ Kailen's CFG Portfolio .*.｡ </h1>
 
 <!--Listing content about me such as activities and work exp.-->
 
@@ -23,69 +33,78 @@
     </header>
 
     <div id="mainskills-list">
-        <h1> My main skills are... </h1>
-        <li>Beginner Python Knowledge</li>
-        <li>Excellent designing using Canva</li>
+        <h1> My skills... </h1>
+        <li>Solid Python Knowledge</li>
+        <li>Excellent designing using Canva, developing my HTML knowledge</li>
         <li>Website design using Wix</li>
-        <li>Impressive leadership, communication and teamwork skills</li>
+        <li>Impressive leadership, communication and teamwork skills</li><br>
     </div>
 
-    <div id="employement"> 
-        <h2> <strong> 💼 Employment: </strong> </h2>
+    <div id="employment"> 
+        <h2> <strong> 💼 Employment ⋆ ˚｡⋆୨୧˚ </strong> </h2>
         <h3> Roots - Digital Technology Director and Board of Directors </h3>
-        <p> 📓 Explanation. </p>
+        <p> 🏆 | UK NATIONALIST</p>
+        <p> 🏅 | Delta Pursuit of Opportunity award, Creativity Award, and Best Innovation Award</p>
+        <p> 📓 I currently manage the social media platforms, website, and email whilst participating in board decisions.</p>
         <h3> Lavish Backdrops - Digital Marketing Manager </h3>
-        <p> 📓 Explanation. </p> <br>
+        <p> 📓  This role has allowed me to explore the digital marketing sector through developing my skills in website design and social media marketing - advertising through online platforms such as Instagram and Tiktok. 
+        </p> <br>
     </div>
 
 
 
     <div id="workexp"> 
-        <h2> <strong> 🖥️ My Work Experience: </strong> </h2>
+        <h2> <strong> 🖥️ My Work Experience ⋆ ˚｡⋆୨୧˚</strong> </h2>
         <h3> Sprinpod & Fujitsu - Digital Skills </h3>
-        <p> 📓 Explanation. </p>
+        <p> 📓 Developed my online safety and communication skills. </p>
         <h3> Sprinpod & Fujitsu - CyberSecurity </h3>
-        <p> 📓 Explanation. </p>
+        <p> 📓 I took on the role of a CyberSecurity specialist to create a strategy to protect a network from cyber criminals. I learnt more about the various threats and solutions. </p>
         <h3> Speakers For Schools & Kainos - Dive into Data, AI and Beyond </h3>
-        <p> 📓 Explanation. </p>
+        <p> 📓 During this virtual work experience I discovered more about Artificial Intelligence, machine learning, careers in data and the different pathways to access these careers.
+
+            I gained a range of skills such as knowledge about machine learning, AI algorithms and how these solve real-world problems. I learnt more about the Data Analyst and Data Scientist careers - conversing with people with experience in these roles.  </p>
         <h3> Speakers For Schools & Up Rise Up - Digital Marketing </h3>
-        <p> 📓 Explanation. </p> <br>
+        <p> 📓 During the insight day I gained skills such as understanding how digital media works, researching about charities and audiences they work with such as psychographics and demographics. I found out the variety of ways I can get into a digital marketing career whilst gaining an appreciation for the intricacies of digital media. </p> <br>
     </div>
 
 
 
     <div id="courses">
-        <h2> <strong> 💻 My Courses: </strong> </h2>
+        <h2> <strong> 💻 My Courses ⋆ ˚｡⋆୨୧˚ </strong> </h2>
         <h3> Sprinpod Subject Spotlight - Decoding Social Media: An exploration of Programming and Platforms </h3>
-        <p> 📓 Explanation. </p>
+        <p> 📓 The subject spotlight was highly engaging and provided a lot of the core information about programming, covering the careers of Software Architects and Software Engineers, to the understandings of how social media platforms operate. I had the opportunity to learn more about the different aspects of applications softwares, including the roles of various components of software architecture.</p>
         <h3> Code Institute: 5 Day Coding Challenge </h3>
-        <p> 📓 Explanation. </p>
+        <p> 📓 Currently studying this course - this has helped me develop my HTML, CSS and JS skills! </p>
         <h3> SheCodes Express </h3>
-        <p> 📓 Explanation. </p>
+        <p> 📓 The class was simple yet informative. 
+
+            Not only did I learn more about current trends in the industry and the most popular programming languages, I was able to use the code Matt provided to create my own..  </p>
         <h3> Maths for Programmers </h3>
-        <p> 📓 Explanation. </p> <br>
+        <p> 📓 Used this course to complete a research project on how Mathematics and CompSci overlap. </p> <br>
     </div>
  
     <div id="education">
-        <h2> <strong> 📘 My Education: </strong> </h2>
+        <h2> <strong> 📘 My Education ⋆ ˚｡⋆୨୧˚ </strong> </h2>
         <h3> Beaconsfield High Schools </h3>
-        <p> 📓 Achieved 10 GCSEs. </p>
-        <p> 📓 Currently doing 3 A Levels with an EPQ. </p> <br>
+        <p> 📖 Achieved 10 GCSEs. </p>
+        <p> 📖 Currently doing 3 A Levels with an EPQ. </p> <br>
    
     </div>
 
 
 
     <div id="activity">  
-        <h2> <strong> My Activities </strong> </h2>
+        <h2> <strong> 📎 My Activities ⋆ ˚｡⋆୨୧˚ </strong> </h2>
         <h3> UCL - Computer Science - Online Masterclass </h3>
-        <p> 📓 Explanation. </p>
+        <p> 📓 In this masterclass, I delved into Computer Graphics, VR/AR Displays, and their integration with AI, learning how they merge digital elements with the real world. I was particularly intrigued by Computer Generated Holography and how AI can advance these technologies. </p>
         <h3> Oxford University - It All Adds Up for Maths </h3>
-        <p> 📓 Explanation. </p>
+        <p> 📓 During this experience I developed my knowledge in mathematical applications through a range of talks from proffesors and hands on activites. Moreover, I was able to connect with other students with an interest in maths.  </p>
         <h3> Oxford University - Maths and Computer Science Departmental Open Day </h3>
-        <p> 📓 Explanation. </p>
+        <p> 📓 This event allowed me to discover more about each subject at a university level - through a range of short talks, student discussions and other activities. 
+
+            Each talk covered a range of topics, such as Computational Statistics and Machine Learning Challenges from a Pandemic. </p>
         <h3> Code First Girls MOOC - Web Development </h3>
-        <p> 📓 Explanation. </p> <br>
+        <p> 📓 The MOOC I followed to develop this HTML file! </p> <br>
     </div>
 
 <!--Currently the links lead to nowhere. Need to implement JS to provide interaction. -->
@@ -93,12 +112,12 @@
         <h2> 📨 Contact me...</h2>
         <p>Email: <a href="#">kailenbains2006@gmail.com</a></p>
         <p>Github: <a href="#">https://github.com/kailenbains06e</a></p>
-        <p>Linkedin: <a href="#">www.linkedin.com/in/kailen-bains-18a7b430b</a></p>
+        <p>LinkedIn: <a href="#">www.linkedin.com/in/kailen-bains-18a7b430b</a></p>
     </footer>
 
     <script src="script.js"></script>
 
-<!--We have added links to a JS and CSS file but need to create the code for it.-->
+<!--We have added links to a JS file but need to create the code for it.-->
 
 </body>
 </html>
